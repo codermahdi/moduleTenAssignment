@@ -1,0 +1,18 @@
+1.	Creating directories: Next.js uses file-system routing, which means the routes in the application are determined by how we structure our files.
+
+2.	The app directory: For new applications, that is recommend to use the App Router. This router allows us to use React's latest features and is an evolution of the Pages Router based on community feedback.
+
+3.	Layout.js & page.js: Under the app folder there’re layout.js and page.js file. These will be rendered when the user visits the root of this application (/). In layout.js file we should create a root layout with the required <html> and <body> tags. Finally create a home page app/page.js with some initial contemt
+
+4.	The public folder: Public folder is created to store static assets such as images, fonts, etc. Files inside public directory can then be referenced by our code starting from the base URL (/).
+
+5.	Global.css: We can write the css code that will be used globally. 
+
+6.	About, blog, contact: If we want to create any page we just need to create a folder with that name. Under that folder we create page.js file & create a function with that name. A page will be created with that name. We can browse that page.
+
+7.	Components: We can create button, Nav, footer like this type of small component under this folder.
+
+
+8. package.json: This file contains the project's metadata and dependencies. We defined our project's entry point, scripts, and other configurations here.
+
+9. README.md: We can create a README file to document your project, explain its purpose, and provide instructions on how to run or contribute to it.
